@@ -94,7 +94,7 @@ export const PROJECTS = [
 ];
 
 export const BIO = [
-  "Hi 👋 I'm Yash NandeshwarCoding🌱 I’m currently learning MERN Stack Development💬 Ask me about Core Java📈 When I'm not engrossed in coding, I typically spend my time perusing the latest advancements in the industry, experimenting with novel technologies, or exploring the natural world.",
+  "I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.",
 ];
 
 export const SKILLS = [
