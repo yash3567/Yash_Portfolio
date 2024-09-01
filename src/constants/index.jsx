@@ -10,9 +10,9 @@ import {
 import { SiLeetcode } from "react-icons/si";
 
 
-import Image1 from "../assets/image1.jpg";
-import Image2 from "../assets/image2.avif";
-import Image3 from "../assets/image3.jpg";
+import Image1 from "../assets/image1.jpeg";
+import Image2 from "../assets/image2.jpeg";
+import Image3 from "../assets/image3.jpeg";
 // import Image4 from "../assets/image4.jpg";
 // import Image5 from "../assets/image5.jpg";
 // import Image6 from "../assets/image6.jpg";
@@ -47,7 +47,7 @@ export const PROJECTS = [
     id: 1,
     name: "Collab-Hub",
     description:
-      "CollabHub: Intelligent Collaboration Matching Platform CollabHub connects individuals and groups based on interests, skills, and goals using advanced matching algorithms. It fosters productive collaborations across professional projects, academic research, and personal hobbies.",
+      "CollabHub is a dynamic platform where entrepreneurs connect, collaborate, and innovate together. Discover like-minded partners, share ideas, and build successful ventures with ease.",
     image: Image1,
     githubLink: "https://github.com/yash3567/Collab-Hub",
   },
@@ -63,7 +63,7 @@ export const PROJECTS = [
     id: 3,
     name: "Project-Work-Station",
     description:
-      "An online integrated platform that compiles and showcases student projects from various universities and colleges in India. This platform will promote knowledge sharing, innovation, and collaboration among students and educators.",
+      "A platform showcasing student projects from Indian universities and colleges, fostering knowledge sharing, innovation, and collaboration among students and educators.",
     image: Image3,
     githubLink: "https://github.com/yash3567/ProjectStation",
   },
