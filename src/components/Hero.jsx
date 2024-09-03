@@ -1,9 +1,7 @@
-import { HERO_CONTENT } from "../constants"
-import portfolio from "../assets/profile1.jpg"
-import { motion } from "framer-motion"
-
-
-
+import { HERO_CONTENT } from "../constants";
+import portfolio from "../assets/profile1.jpg";
+import resume from "../assets/YASH-Resume.pdf";
+import { motion } from "framer-motion";
 
 const container = (delay) => ({
     hidden: { x: -100, opacity: 0 },
@@ -38,6 +36,19 @@ const Hero = () => {
                         className="my-2 max-w-xl py-6 font-light tracking-tighter">
                         {HERO_CONTENT}
                     </motion.p>
+                    <motion.div
+                        variants={container(1.2)}
+                        initial="hidden"
+                        animate="visible"
+                        className="w-full flex justify-center lg:justify-start mt-4">
+                        <a
+                            href={resume}
+                            download
+                            className="block mt-4 w-15 lg:w-auto rounded bg-blue-500 px-6 py-2 text-white font-medium hover:bg-blue-600 text-center m-8">
+                            Download Resume
+                        </a>
+
+                    </motion.div>
                 </div>
             </div>
             <div className="w-full lg:w-1/2 lg:p-8">
@@ -55,7 +66,7 @@ const Hero = () => {
                 </div>
             </div>
         </section>
-    )
+    );
 }
 
-export default Hero
+export default Hero;

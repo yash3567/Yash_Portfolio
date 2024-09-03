@@ -2,9 +2,9 @@ import {
   FaXTwitter,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
+  // FaFacebook,
   FaDiscord,
-  FaInstagram,
+  // FaInstagram,
 } from "react-icons/fa6";
 
 import { SiLeetcode } from "react-icons/si";
@@ -25,6 +25,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 
 export const NAVIGATION_LINKS = [
+  { label: "Home", href: "#" }, // Add Home link
   { label: "Projects", href: "#projects" },
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
@@ -32,6 +33,7 @@ export const NAVIGATION_LINKS = [
   { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
 ];
+
 
 // export const HERO = {
 //   name: "CARL FRANK",
@@ -141,14 +143,9 @@ export const EXPERIENCES = [
   {
     title: "Full Stack Developer",
     company: " Intern  Edumix Technologies Pvt Ltd  ",
-    duration: "February 2016 - June 2020",
+    duration: "January 2024 - Present",
     description:
-      `Developed Full-Stack Application: Contributed to designing and developing full-stack applications using MongoDB, Express.js, React, and Node.js (MERN).
-	                API Development and Integration: Built and integrated RESTful APIs, facilitating seamless communication between front-end and back-end system.
-                  Front-End Development and Collaboration: Designed responsive user interfaces in React and collaborated with cross-functional teams to deliver high-quality software solutions.
-                	Database Management and Troubleshooting: Managed MongoDB databases and resolved bugs and performance issues to maintain optional functionality.
-	                Agile Methodologies and Version Control: Participated in Agile development processes and utilized Git and GitHub for version control and collaborative code reviews.
-                  Learning and Development: Continuously learned and applied new technologies and best practice in MERN stack development.,`,
+      `Designed and developed full-stack applications using MongoDB, Express.js, React, and Node.js (MERN). Built and integrated RESTful APIs, managed MongoDB databases, and created responsive UIs in React. Collaborated in Agile teams, leveraging Git for version control, while continuously enhancing technical skills.`,
   },
   // {
   //   title: "Junior Web Developer",
@@ -177,14 +174,14 @@ export const EDUCATION = [
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
-  {
-    href: "https://x.com/",
-    icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
-  },
+  // {
+  //   href: "https://x.com/",
+  //   icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
+  // },
+  // {
+  //   href: "https://x.com/",
+  //   icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
+  // },
   {
     href: "https://x.com/",
     icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
